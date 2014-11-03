@@ -1,0 +1,1 @@
+class Test20; end

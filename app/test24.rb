@@ -1,0 +1,1 @@
+class Test24; end

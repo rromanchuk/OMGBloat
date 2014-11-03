@@ -11,4 +11,6 @@ end
 Motion::Project::App.setup do |app|
   # Use `rake config' to see complete project settings.
   app.name = 'OMGBloat'
+  app.archs['iPhoneOS'] = ['arm64', 'armv7']
+  app.archs['iPhoneSimulator'] << 'x86_64'
 end
